@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data files
+Data/
+*.zip
+
+# Model files
+*.pth
+*.pt
+*.pkl
+
+# Results and outputs
+results/
+*.png
+*.jpg
+*.jpeg
+
+# Wandb
+wandb/
+.wandb/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
