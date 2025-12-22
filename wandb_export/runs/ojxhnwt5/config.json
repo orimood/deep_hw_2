@@ -1,0 +1,17 @@
+{
+  "loss": "BCEWithLogits",
+  "gamma": 0.1,
+  "epochs": 20,
+  "dataset": "LFW Aligned",
+  "optimizer": "Adam",
+  "scheduler": "StepLR",
+  "step_size": 10,
+  "batch_size": 32,
+  "dropout_fc": 0.5,
+  "architecture": "Siamese Network with BatchNorm + Multi-channel Similarity + Strong Regularization",
+  "dropout_conv": "0.2-0.3",
+  "improvements": "BatchNorm, Multi-channel similarity, Strong dropout (0.5 FC, 0.2-0.3 conv), Higher weight decay (0.001)",
+  "weight_decay": 0.001,
+  "embedding_dim": 1024,
+  "learning_rate": 0.0001
+}

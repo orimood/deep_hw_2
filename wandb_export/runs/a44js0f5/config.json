@@ -1,0 +1,13 @@
+{
+  "lr": 0.001,
+  "loss": "BCEWithLogitsLoss",
+  "epochs": 50,
+  "optimizer": "Adam",
+  "batch_size": 128,
+  "input_size": 105,
+  "in_channels": 1,
+  "architecture": "Koch2015_Fig4_weightedL1",
+  "weight_decay": 0,
+  "embedding_dim": 4096,
+  "trainable_params": 38951745
+}

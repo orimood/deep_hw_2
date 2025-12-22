@@ -1,0 +1,19 @@
+{
+  "loss": "BCEWithLogits",
+  "gamma": 0.1,
+  "epochs": 12,
+  "dataset": "LFW Aligned",
+  "optimizer": "Adam",
+  "scheduler": "StepLR",
+  "step_size": 10,
+  "batch_size": 32,
+  "dropout_fc": 0.7,
+  "architecture": "Siamese Network with BatchNorm + Multi-channel Similarity + Very Strong Regularization + Strong Augmentation",
+  "augmentation": "HFlip, Rotation(15°), StrongColorJitter, RandomAffine, RandomErasing(0.3)",
+  "dropout_conv": "0.2-0.3",
+  "improvements": "All 3: Very strong dropout (0.7 FC, 0.6 similarity, 0.2-0.3 conv), Weight decay (0.001), Strong augmentation, Reduced epochs (12), Early stopping (8 epochs patience)",
+  "weight_decay": 0.001,
+  "embedding_dim": 1024,
+  "learning_rate": 0.0001,
+  "dropout_similarity": 0.6
+}
