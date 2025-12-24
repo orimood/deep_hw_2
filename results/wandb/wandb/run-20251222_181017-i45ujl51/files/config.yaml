@@ -1,0 +1,89 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            mvg4fmlpdx4xc21c8wmi1hzq3zahe28l:
+                apple:
+                    ecpuCores: 2
+                    gpuCores: 24
+                    memoryGb: 32
+                    name: Apple M1 Max
+                    pcpuCores: 8
+                    ramTotalBytes: "34359738368"
+                codePath: /Users/orimood/Desktop/homework/deep_hw_2/notebook.ipynb
+                codePathLocal: notebook.ipynb
+                cpu_count: 10
+                cpu_count_logical: 10
+                disk:
+                    /:
+                        total: "994662584320"
+                        used: "887389593600"
+                email: orisin@post.bgu.ac.il
+                executable: /Users/orimood/Desktop/homework/deep_hw_2/.venv/bin/python
+                git:
+                    commit: 41fa0ab6a442b03c15c1df46b506bcb35e790c03
+                    remote: https://github.com/orimood/deep_hw_2.git
+                host: wrys-MacBook-Pro.local
+                memory:
+                    total: "34359738368"
+                os: macOS-15.6.1-arm64-arm-64bit-Mach-O
+                program: /Users/orimood/Desktop/homework/deep_hw_2/notebook.ipynb
+                python: CPython 3.13.1
+                root: ./results/wandb
+                startedAt: "2025-12-22T16:10:17.846164Z"
+                writerId: mvg4fmlpdx4xc21c8wmi1hzq3zahe28l
+        m: []
+        python_version: 3.13.1
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+            "3":
+                - 1
+                - 2
+                - 13
+                - 16
+                - 62
+            "4": 3.13.1
+            "5": 0.23.1
+            "8":
+                - 1
+            "12": 0.23.1
+            "13": darwin-arm64
+architecture:
+    value: Improved Siamese Network
+batch_size:
+    value: 32
+dataset:
+    value: LFW Aligned
+dropout:
+    value: 0.5 (embedding) / 0.5, 0.4 (similarity head)
+embedding_dim:
+    value: 512
+epochs:
+    value: 20
+gamma:
+    value: 0.1
+improvements:
+    value: BatchNorm + Multi-Channel Similarity + BCEWithLogitsLoss + Higher Dropout
+learning_rate:
+    value: 0.0001
+loss:
+    value: BCEWithLogitsLoss
+optimizer:
+    value: Adam
+scheduler:
+    value: StepLR
+similarity_channels:
+    value: L1 + L2 + Cosine + Dot
+step_size:
+    value: 10
+weight_decay:
+    value: 0.001

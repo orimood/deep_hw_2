@@ -1,0 +1,36 @@
+{
+  "os": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.1",
+  "startedAt": "2025-12-22T17:33:04.333450Z",
+  "program": "/Users/orimood/Desktop/homework/deep_hw_2/notebook.ipynb",
+  "codePath": "/Users/orimood/Desktop/homework/deep_hw_2/notebook.ipynb",
+  "codePathLocal": "notebook.ipynb",
+  "git": {
+    "remote": "https://github.com/orimood/deep_hw_2.git",
+    "commit": "41fa0ab6a442b03c15c1df46b506bcb35e790c03"
+  },
+  "email": "orisin@post.bgu.ac.il",
+  "root": "./results/wandb",
+  "host": "wrys-MacBook-Pro.local",
+  "executable": "/Users/orimood/Desktop/homework/deep_hw_2/.venv/bin/python",
+  "cpu_count": 10,
+  "cpu_count_logical": 10,
+  "disk": {
+    "/": {
+      "total": "994662584320",
+      "used": "887804911616"
+    }
+  },
+  "memory": {
+    "total": "34359738368"
+  },
+  "apple": {
+    "name": "Apple M1 Max",
+    "ecpuCores": 2,
+    "pcpuCores": 8,
+    "gpuCores": 24,
+    "memoryGb": 32,
+    "ramTotalBytes": "34359738368"
+  },
+  "writerId": "aym8guwoi7q797jr58r5qy5kiiv7fmy4"
+}

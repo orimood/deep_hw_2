@@ -22,15 +22,7 @@ Data/
 *.pt
 *.pkl
 
-# Results and outputs
-results/
-*.png
-*.jpg
-*.jpeg
 
-# Wandb
-wandb/
-.wandb/
 
 # VS Code
 .vscode/
