@@ -1,0 +1,89 @@
+wandb_version: 1
+
+architecture:
+  desc: null
+  value: Siamese Network with BatchNorm + Multi-channel Similarity + Light Regularization
+    + Strong Augmentation
+dataset:
+  desc: null
+  value: LFW Aligned
+embedding_dim:
+  desc: null
+  value: 1024
+batch_size:
+  desc: null
+  value: 32
+learning_rate:
+  desc: null
+  value: 0.0001
+epochs:
+  desc: null
+  value: 20
+weight_decay:
+  desc: null
+  value: 0.001
+optimizer:
+  desc: null
+  value: Adam
+loss:
+  desc: null
+  value: BCEWithLogits
+scheduler:
+  desc: null
+  value: StepLR
+step_size:
+  desc: null
+  value: 10
+gamma:
+  desc: null
+  value: 0.1
+dropout_fc:
+  desc: null
+  value: 0.3
+dropout_similarity:
+  desc: null
+  value: 0.3
+dropout_conv:
+  desc: null
+  value: 0.2-0.3
+augmentation:
+  desc: null
+  value: HFlip, Rotation(15°), StrongColorJitter, RandomAffine, RandomErasing(0.3)
+improvements:
+  desc: null
+  value: 'BASELINE: Light dropout (0.3 FC/similarity, 0.2-0.3 conv), Weight decay
+    (0.001), Strong augmentation - Expected to overfit (~73% test, ~99% train)'
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.7
+    cli_version: 0.16.1
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1766164784.923919
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      3:
+      - 2
+      - 13
+      - 16
+      - 23
+      4: 3.10.7
+      5: 0.16.1
+      8:
+      - 1
+      - 3
+      - 8
+      13: windows-amd64

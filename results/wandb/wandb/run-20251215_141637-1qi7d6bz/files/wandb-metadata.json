@@ -1,0 +1,46 @@
+{
+    "os": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.7",
+    "heartbeatAt": "2025-12-15T12:16:38.872178",
+    "startedAt": "2025-12-15T12:16:37.755797",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "orimood-pc",
+    "username": "orimood",
+    "executable": "d:\\uni\\deep_2\\venv\\Scripts\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3600.0,
+        "min": 0.0,
+        "max": 3600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3600.0,
+            "min": 0.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1862.9999961853027,
+            "used": 1325.0851745605469
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2080",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2080",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 63.85018539428711
+    }
+}
