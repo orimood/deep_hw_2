@@ -10,9 +10,9 @@ import matplotlib.pyplot as plt
 # =========================
 # Paths (set these once)
 # =========================
-RUNS_SUMMARY_CSV = Path("./wandb_export/runs_summary.csv")
-EXPORTS_DIR = Path("./wandb_export")          # your folder name
-OUT_DIR = Path("./report_figures")            # figures go here
+RUNS_SUMMARY_CSV = Path("../wandb_export/runs_summary.csv")
+EXPORTS_DIR = Path("../wandb_export")          # your folder name
+OUT_DIR = Path("../report_figures")            # figures go here
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

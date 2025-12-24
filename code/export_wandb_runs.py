@@ -181,7 +181,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--entity", type=str, default="orisin-ben-gurion-university-of-the-negev")
     parser.add_argument("--project", type=str, default="facial-recognition")
-    parser.add_argument("--out", type=str, default="./wandb_export")
+    parser.add_argument("--out", type=str, default="../wandb_export")
 
     parser.add_argument("--finished-only", action="store_true", help="Export only finished runs")
     parser.add_argument("--download-files", action="store_true", help="Download run files stored on W&B")
