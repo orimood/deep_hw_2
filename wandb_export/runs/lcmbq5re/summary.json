@@ -1,7 +1,0 @@
-{
-  "_runtime": 4.323753083,
-  "_step": 0,
-  "_timestamp": 1766424789.6922429,
-  "_wandb": "{'runtime': 4}",
-  "confusion_matrix": "{'_type': 'image-file', 'format': 'png', 'height': 1764, 'path': 'media/images/confusion_matrix_0_2edb0ec0647ac36991fc.png', 'sha256': '2edb0ec0647ac36991fc5f7a952c68332e6e1edf7310b83031ca690b9b472aa9', 'size': 102877, 'width': 2270}"
-}
